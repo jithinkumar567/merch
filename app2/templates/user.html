@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,7 @@
     
     <style>
       body{
-        background-image: url("mer.jpg");
+        background-image: url("../static/images/mer.jpg");
         background-size: cover;
         
       }
@@ -34,7 +35,7 @@
 
 
 
-          <img src="PSG.jpg" class="card-img-top" alt="..." width="100px">
+          <img src="{% static 'images/PSG.jpg' %}" class="card-img-top" alt="..." width="100px">
         <div class="card-body">
 
           <p class="card-text">Love is the merchandise which all the world demands; if you store it in your heart, every soul will become your customer.</p>
